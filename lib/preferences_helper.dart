@@ -1,7 +1,5 @@
 import 'dart:convert';
-
 import 'package:shared_preferences/shared_preferences.dart';
-
 import 'models/note_model.dart';
 
 class PreferencesHelper {

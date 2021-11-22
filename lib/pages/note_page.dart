@@ -15,8 +15,6 @@ class NotePageState extends State<NotePage> {
   final myController = TextEditingController();
   Note? note;
 
-  NotePageState();
-
   @override
   void dispose() {
     myController.dispose();
